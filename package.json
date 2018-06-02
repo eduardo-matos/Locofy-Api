@@ -4,6 +4,7 @@
   "description": "",
   "main": "src/server.js",
   "scripts": {
+    "start": "node src/app.js",
     "test": "mocha --recursive --exit tests",
     "lint": "eslint src"
   },
