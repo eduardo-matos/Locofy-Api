@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/app.js",
     "test": "mocha --recursive --exit tests",
-    "lint": "eslint src"
+    "lint": "eslint src tests"
   },
   "author": "Eduardo Matos",
   "license": "ISC",
