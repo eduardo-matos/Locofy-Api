@@ -1,0 +1,31 @@
+{
+  "name": "locofy-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "mocha --recursive --exit tests",
+    "lint": "eslint src"
+  },
+  "author": "Eduardo Matos",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "4.1.2",
+    "chai-http": "4.0.0",
+    "eslint": "4.19.1",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.12.0",
+    "mocha": "5.2.0",
+    "sinon": "5.0.10",
+    "sqlite3": "4.0.0"
+  },
+  "dependencies": {
+    "express": "4.16.3",
+    "jsonwebtoken": "8.2.2",
+    "pg": "7.4.3",
+    "sequelize": "4.37.10"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
