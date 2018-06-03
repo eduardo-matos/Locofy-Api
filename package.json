@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node src/app.js",
     "test": "nyc mocha --recursive --exit --slow=200 tests",
-    "lint": "eslint src tests"
+    "lint": "eslint src tests",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "author": "Eduardo Matos",
   "license": "ISC",
