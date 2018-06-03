@@ -14,3 +14,8 @@ API for [Locofy](https://github.com/eduardo-matos/Locofy).
 
 * `DATABASE_URL` (`sqlite://`): Database URL connection string. 
 * `PORT` (`5000`): API port.
+* `SECRET_KEY` (random): Secret key used to sign json web tokens.
+* `SPOTIFY_SCOPES` (`user-read-private user-read-email`): Spotify scopes access.
+* `SPOTIFY_CALLBACK_URL` (`http://localhost:${PORT}/callback`): Callback URL which Spotify will call upon authorization success or failure.
+* `SPOTIFY_CLIENT_ID`: Application's client ID registered on Spotify.
+* `SPOTIFY_CLIENT_SECRET`: Application's client secret registered on Spotify.
