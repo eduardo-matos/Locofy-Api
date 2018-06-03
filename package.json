@@ -5,7 +5,7 @@
   "main": "src/server.js",
   "scripts": {
     "start": "node src/app.js",
-    "test": "mocha --recursive --exit tests",
+    "test": "mocha --recursive --exit --slow=200 tests",
     "lint": "eslint src tests"
   },
   "author": "Eduardo Matos",
@@ -21,9 +21,13 @@
     "sqlite3": "4.0.0"
   },
   "dependencies": {
+    "axios": "0.18.0",
     "express": "4.16.3",
+    "http-codes": "1.0.0",
     "jsonwebtoken": "8.2.2",
     "pg": "7.4.3",
+    "request": "2.87.0",
+    "request-promise": "4.2.2",
     "sequelize": "4.37.10"
   },
   "engines": {

@@ -1,0 +1,208 @@
+{
+  "artists": {
+    "href": "https://api.spotify.com/v1/search?query=Black&type=artist&market=BR&offset=0&limit=5",
+    "items": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2cFrymmkijnjDg9SS92EPM"
+        },
+        "followers": {
+          "href": null,
+          "total": 1316723
+        },
+        "genres": [
+          "pop"
+        ],
+        "href": "https://api.spotify.com/v1/artists/2cFrymmkijnjDg9SS92EPM",
+        "id": "2cFrymmkijnjDg9SS92EPM",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/77279b90326fad960f89953505d6abc55285c618",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/404978f23d2bb328caec9f4529e2a823e048627e",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/344d989d7168e5a9ff8120cd9c9727f2f4744770",
+            "width": 160
+          }
+        ],
+        "name": "Blackbear",
+        "popularity": 81,
+        "type": "artist",
+        "uri": "spotify:artist:2cFrymmkijnjDg9SS92EPM"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/46SHBwWsqBkxI7EeeBEQG7"
+        },
+        "followers": {
+          "href": null,
+          "total": 3066141
+        },
+        "genres": [
+          "hip hop",
+          "pop",
+          "rap",
+          "southern hip hop",
+          "trap music"
+        ],
+        "href": "https://api.spotify.com/v1/artists/46SHBwWsqBkxI7EeeBEQG7",
+        "id": "46SHBwWsqBkxI7EeeBEQG7",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/7e3b329829c210144d51035a91b92ce3f55d79fb",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ef90a19321978c4431246870132c3a6540412806",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/5a428596636f28fb55b5bb0006a7ce385d5be69b",
+            "width": 160
+          }
+        ],
+        "name": "Kodak Black",
+        "popularity": 85,
+        "type": "artist",
+        "uri": "spotify:artist:46SHBwWsqBkxI7EeeBEQG7"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5M52tdBnJaKSvOpJGz8mfZ"
+        },
+        "followers": {
+          "href": null,
+          "total": 2640276
+        },
+        "genres": [
+          "album rock",
+          "classic rock",
+          "hard rock",
+          "metal",
+          "rock",
+          "stoner rock"
+        ],
+        "href": "https://api.spotify.com/v1/artists/5M52tdBnJaKSvOpJGz8mfZ",
+        "id": "5M52tdBnJaKSvOpJGz8mfZ",
+        "images": [
+          {
+            "height": 1333,
+            "url": "https://i.scdn.co/image/5931700f9515dd6587230130beb615e0549e47dc",
+            "width": 1000
+          },
+          {
+            "height": 853,
+            "url": "https://i.scdn.co/image/2af99dc3c8acbbe00d913526229def80e7f42e5f",
+            "width": 640
+          },
+          {
+            "height": 267,
+            "url": "https://i.scdn.co/image/6f37a1025ba3f8e2dbb3b15cf30016ff728ba51d",
+            "width": 200
+          },
+          {
+            "height": 85,
+            "url": "https://i.scdn.co/image/86bc6e056f0b843648071b1456dc8e31af1e019e",
+            "width": 64
+          }
+        ],
+        "name": "Black Sabbath",
+        "popularity": 73,
+        "type": "artist",
+        "uri": "spotify:artist:5M52tdBnJaKSvOpJGz8mfZ"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6aCbXH85qN6xo54C7atSMx"
+        },
+        "followers": {
+          "href": null,
+          "total": 138021
+        },
+        "genres": [
+          "brazilian hip hop",
+          "brazilian reggae"
+        ],
+        "href": "https://api.spotify.com/v1/artists/6aCbXH85qN6xo54C7atSMx",
+        "id": "6aCbXH85qN6xo54C7atSMx",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/fa9b3a3e17f413b8873a03e2cb61d6e80774be18",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/3cdf3843789a5d5d449d4c4bffa3d038ecfa524f",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/f90bfeeef450647f86afe68a734c5db3d509a489",
+            "width": 160
+          }
+        ],
+        "name": "Black Alien",
+        "popularity": 53,
+        "type": "artist",
+        "uri": "spotify:artist:6aCbXH85qN6xo54C7atSMx"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4IVAbR2w4JJNJDDRFP3E83"
+        },
+        "followers": {
+          "href": null,
+          "total": 875061
+        },
+        "genres": [
+          "hip hop",
+          "indie r&b",
+          "pop",
+          "pop rap",
+          "r&b",
+          "rap",
+          "trap music"
+        ],
+        "href": "https://api.spotify.com/v1/artists/4IVAbR2w4JJNJDDRFP3E83",
+        "id": "4IVAbR2w4JJNJDDRFP3E83",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/671d913582c2669a58205ce8e23fd89e190d7687",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/c9ad2edd02fdb68aea6ce4d30e3f4244ffa5f17b",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/4c6e0bc5265a421eedd585f853f6ffbd2b341c16",
+            "width": 160
+          }
+        ],
+        "name": "6LACK",
+        "popularity": 82,
+        "type": "artist",
+        "uri": "spotify:artist:4IVAbR2w4JJNJDDRFP3E83"
+      }
+    ],
+    "limit": 5,
+    "next": "https://api.spotify.com/v1/search?query=Black&type=artist&market=BR&offset=5&limit=5",
+    "offset": 0,
+    "previous": null,
+    "total": 9397
+  }
+}

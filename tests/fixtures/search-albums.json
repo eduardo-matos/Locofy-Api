@@ -1,0 +1,49 @@
+[
+  {
+    "id": "3A4zAmE5c4dUAAqEJz6hCH",
+    "image": "https://i.scdn.co/image/1e886ca74a1dc17b9a226283b9cc4b765ee25cb8",
+    "name": "Metallica",
+    "artists": [
+      "Metallica"
+    ],
+    "availability": true
+  },
+  {
+    "id": "6mUdeDZCsExyJLMdAfDuwh",
+    "image": "https://i.scdn.co/image/52d83377fe9d7fc838deeb859499f3973adf903f",
+    "name": "Back In Black",
+    "artists": [
+      "AC/DC"
+    ],
+    "availability": true
+  },
+  {
+    "id": "5f8pMn2A5d5lKMDapYbCmp",
+    "image": "https://i.scdn.co/image/dfc8859cfa4ac0a761742f6b64e45f4ea65ece50",
+    "name": "Black Panther The Album Music From And Inspired By",
+    "artists": [
+      "Kendrick Lamar",
+      "The Weeknd",
+      "SZA"
+    ],
+    "availability": true
+  },
+  {
+    "id": "6GJCGWfI95aeRsdtVB52vc",
+    "image": "https://i.scdn.co/image/d1b3fe2214267fb5479bd7311f610b3ad5422570",
+    "name": "Back To Black",
+    "artists": [
+      "Amy Winehouse"
+    ],
+    "availability": true
+  },
+  {
+    "id": "132qAo1cDiEJdA3fv4xyNK",
+    "image": "https://i.scdn.co/image/c19016d18d5a84465b6d863c8bde74953a2796fd",
+    "name": "Paranoid (2009 Remastered Version)",
+    "artists": [
+      "Black Sabbath"
+    ],
+    "availability": true
+  }
+]

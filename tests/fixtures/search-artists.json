@@ -1,0 +1,63 @@
+[
+  {
+    "id": "2cFrymmkijnjDg9SS92EPM",
+    "name": "Blackbear",
+    "image": "https://i.scdn.co/image/77279b90326fad960f89953505d6abc55285c618",
+    "genres": [
+      "pop"
+    ],
+    "popularity": 81
+  },
+  {
+    "id": "46SHBwWsqBkxI7EeeBEQG7",
+    "name": "Kodak Black",
+    "image": "https://i.scdn.co/image/7e3b329829c210144d51035a91b92ce3f55d79fb",
+    "genres": [
+      "hip hop",
+      "pop",
+      "rap",
+      "southern hip hop",
+      "trap music"
+    ],
+    "popularity": 85
+  },
+  {
+    "id": "5M52tdBnJaKSvOpJGz8mfZ",
+    "name": "Black Sabbath",
+    "image": "https://i.scdn.co/image/5931700f9515dd6587230130beb615e0549e47dc",
+    "genres": [
+      "album rock",
+      "classic rock",
+      "hard rock",
+      "metal",
+      "rock",
+      "stoner rock"
+    ],
+    "popularity": 73
+  },
+  {
+    "id": "6aCbXH85qN6xo54C7atSMx",
+    "name": "Black Alien",
+    "image": "https://i.scdn.co/image/fa9b3a3e17f413b8873a03e2cb61d6e80774be18",
+    "genres": [
+      "brazilian hip hop",
+      "brazilian reggae"
+    ],
+    "popularity": 53
+  },
+  {
+    "id": "4IVAbR2w4JJNJDDRFP3E83",
+    "name": "6LACK",
+    "image": "https://i.scdn.co/image/671d913582c2669a58205ce8e23fd89e190d7687",
+    "genres": [
+      "hip hop",
+      "indie r&b",
+      "pop",
+      "pop rap",
+      "r&b",
+      "rap",
+      "trap music"
+    ],
+    "popularity": 82
+  }
+]

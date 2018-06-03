@@ -1,0 +1,577 @@
+{
+  "albums": {
+    "href": "https://api.spotify.com/v1/search?query=Black&type=album&market=BR&offset=0&limit=5",
+    "items": [
+      {
+        "album_type": "album",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2ye2Wgw4gimLv2eAKyk1NB"
+            },
+            "href": "https://api.spotify.com/v1/artists/2ye2Wgw4gimLv2eAKyk1NB",
+            "id": "2ye2Wgw4gimLv2eAKyk1NB",
+            "name": "Metallica",
+            "type": "artist",
+            "uri": "spotify:artist:2ye2Wgw4gimLv2eAKyk1NB"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "AR",
+          "AT",
+          "AU",
+          "BE",
+          "BG",
+          "BO",
+          "BR",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "EC",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "GT",
+          "HK",
+          "HN",
+          "HU",
+          "ID",
+          "IE",
+          "IL",
+          "IS",
+          "IT",
+          "JP",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MC",
+          "MT",
+          "MX",
+          "MY",
+          "NI",
+          "NL",
+          "NO",
+          "NZ",
+          "PA",
+          "PE",
+          "PH",
+          "PL",
+          "PT",
+          "PY",
+          "RO",
+          "SE",
+          "SG",
+          "SK",
+          "SV",
+          "TH",
+          "TR",
+          "TW",
+          "US",
+          "UY",
+          "VN",
+          "ZA"
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/3A4zAmE5c4dUAAqEJz6hCH"
+        },
+        "href": "https://api.spotify.com/v1/albums/3A4zAmE5c4dUAAqEJz6hCH",
+        "id": "3A4zAmE5c4dUAAqEJz6hCH",
+        "images": [
+          {
+            "height": 634,
+            "url": "https://i.scdn.co/image/1e886ca74a1dc17b9a226283b9cc4b765ee25cb8",
+            "width": 640
+          },
+          {
+            "height": 297,
+            "url": "https://i.scdn.co/image/19187aee68f7f6f7899b717bb7108c55916bc967",
+            "width": 300
+          },
+          {
+            "height": 63,
+            "url": "https://i.scdn.co/image/7e35bd0e30fc9fcb65f3a9e4df82aa3c94ac33a3",
+            "width": 64
+          }
+        ],
+        "name": "Metallica",
+        "release_date": "1991-01-01",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:3A4zAmE5c4dUAAqEJz6hCH"
+      },
+      {
+        "album_type": "album",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/711MCceyCBcFnzjGY4Q7Un"
+            },
+            "href": "https://api.spotify.com/v1/artists/711MCceyCBcFnzjGY4Q7Un",
+            "id": "711MCceyCBcFnzjGY4Q7Un",
+            "name": "AC/DC",
+            "type": "artist",
+            "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "AR",
+          "AT",
+          "AU",
+          "BE",
+          "BG",
+          "BO",
+          "BR",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "EC",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "GT",
+          "HK",
+          "HN",
+          "HU",
+          "ID",
+          "IE",
+          "IL",
+          "IS",
+          "IT",
+          "JP",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MC",
+          "MT",
+          "MX",
+          "MY",
+          "NI",
+          "NL",
+          "NO",
+          "NZ",
+          "PA",
+          "PE",
+          "PH",
+          "PL",
+          "PT",
+          "PY",
+          "RO",
+          "SE",
+          "SG",
+          "SK",
+          "SV",
+          "TH",
+          "TR",
+          "TW",
+          "US",
+          "UY",
+          "VN",
+          "ZA"
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/6mUdeDZCsExyJLMdAfDuwh"
+        },
+        "href": "https://api.spotify.com/v1/albums/6mUdeDZCsExyJLMdAfDuwh",
+        "id": "6mUdeDZCsExyJLMdAfDuwh",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/52d83377fe9d7fc838deeb859499f3973adf903f",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/b7b31914e0c4951249fad37271248212c8ac3025",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/184dd6719f7c5317a08505d4d67795583adfb392",
+            "width": 64
+          }
+        ],
+        "name": "Back In Black",
+        "release_date": "1980-07-25",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:6mUdeDZCsExyJLMdAfDuwh"
+      },
+      {
+        "album_type": "album",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+            },
+            "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg",
+            "id": "2YZyLoL8N0Wb9xBt1NhZWg",
+            "name": "Kendrick Lamar",
+            "type": "artist",
+            "uri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ"
+            },
+            "href": "https://api.spotify.com/v1/artists/1Xyo4u8uXC1ZmMpatF05PJ",
+            "id": "1Xyo4u8uXC1ZmMpatF05PJ",
+            "name": "The Weeknd",
+            "type": "artist",
+            "uri": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7tYKF4w9nC0nq9CsPZTHyP"
+            },
+            "href": "https://api.spotify.com/v1/artists/7tYKF4w9nC0nq9CsPZTHyP",
+            "id": "7tYKF4w9nC0nq9CsPZTHyP",
+            "name": "SZA",
+            "type": "artist",
+            "uri": "spotify:artist:7tYKF4w9nC0nq9CsPZTHyP"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "AR",
+          "AT",
+          "AU",
+          "BE",
+          "BG",
+          "BO",
+          "BR",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "EC",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "GT",
+          "HK",
+          "HN",
+          "HU",
+          "ID",
+          "IE",
+          "IL",
+          "IS",
+          "IT",
+          "JP",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MC",
+          "MT",
+          "MX",
+          "MY",
+          "NI",
+          "NL",
+          "NO",
+          "NZ",
+          "PA",
+          "PE",
+          "PH",
+          "PL",
+          "PT",
+          "PY",
+          "RO",
+          "SE",
+          "SG",
+          "SK",
+          "SV",
+          "TH",
+          "TR",
+          "TW",
+          "US",
+          "UY",
+          "VN",
+          "ZA"
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/5f8pMn2A5d5lKMDapYbCmp"
+        },
+        "href": "https://api.spotify.com/v1/albums/5f8pMn2A5d5lKMDapYbCmp",
+        "id": "5f8pMn2A5d5lKMDapYbCmp",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/dfc8859cfa4ac0a761742f6b64e45f4ea65ece50",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/5a722077548b7d48abfd93324592026337789a8e",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/955b112723eae662639f2322054b7a1cb8f4ad1a",
+            "width": 64
+          }
+        ],
+        "name": "Black Panther The Album Music From And Inspired By",
+        "release_date": "2018-02-09",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:5f8pMn2A5d5lKMDapYbCmp"
+      },
+      {
+        "album_type": "album",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6Q192DXotxtaysaqNPy5yR"
+            },
+            "href": "https://api.spotify.com/v1/artists/6Q192DXotxtaysaqNPy5yR",
+            "id": "6Q192DXotxtaysaqNPy5yR",
+            "name": "Amy Winehouse",
+            "type": "artist",
+            "uri": "spotify:artist:6Q192DXotxtaysaqNPy5yR"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "AR",
+          "AT",
+          "AU",
+          "BE",
+          "BG",
+          "BO",
+          "BR",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "EC",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "GT",
+          "HK",
+          "HN",
+          "HU",
+          "ID",
+          "IE",
+          "IL",
+          "IS",
+          "IT",
+          "JP",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MC",
+          "MT",
+          "MX",
+          "MY",
+          "NI",
+          "NL",
+          "NO",
+          "NZ",
+          "PA",
+          "PE",
+          "PH",
+          "PL",
+          "PT",
+          "PY",
+          "RO",
+          "SE",
+          "SG",
+          "SK",
+          "SV",
+          "TH",
+          "TR",
+          "TW",
+          "US",
+          "UY",
+          "VN",
+          "ZA"
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/6GJCGWfI95aeRsdtVB52vc"
+        },
+        "href": "https://api.spotify.com/v1/albums/6GJCGWfI95aeRsdtVB52vc",
+        "id": "6GJCGWfI95aeRsdtVB52vc",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/d1b3fe2214267fb5479bd7311f610b3ad5422570",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/0c543026b1902c1c3eb9761757245a3703827bf5",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/eae28a2832f600c96748c7cf405da3b841dd9ce4",
+            "width": 64
+          }
+        ],
+        "name": "Back To Black",
+        "release_date": "2006-01-01",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:6GJCGWfI95aeRsdtVB52vc"
+      },
+      {
+        "album_type": "album",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5M52tdBnJaKSvOpJGz8mfZ"
+            },
+            "href": "https://api.spotify.com/v1/artists/5M52tdBnJaKSvOpJGz8mfZ",
+            "id": "5M52tdBnJaKSvOpJGz8mfZ",
+            "name": "Black Sabbath",
+            "type": "artist",
+            "uri": "spotify:artist:5M52tdBnJaKSvOpJGz8mfZ"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "AR",
+          "AT",
+          "AU",
+          "BE",
+          "BG",
+          "BO",
+          "BR",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "EC",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "GT",
+          "HK",
+          "HN",
+          "HU",
+          "ID",
+          "IE",
+          "IL",
+          "IS",
+          "IT",
+          "JP",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MC",
+          "MT",
+          "MX",
+          "MY",
+          "NI",
+          "NL",
+          "NO",
+          "NZ",
+          "PA",
+          "PE",
+          "PH",
+          "PL",
+          "PT",
+          "PY",
+          "RO",
+          "SE",
+          "SG",
+          "SK",
+          "SV",
+          "TH",
+          "TR",
+          "TW",
+          "US",
+          "UY",
+          "VN",
+          "ZA"
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/132qAo1cDiEJdA3fv4xyNK"
+        },
+        "href": "https://api.spotify.com/v1/albums/132qAo1cDiEJdA3fv4xyNK",
+        "id": "132qAo1cDiEJdA3fv4xyNK",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/c19016d18d5a84465b6d863c8bde74953a2796fd",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/d7b2a052d259e2b9b3a97949079d6ff3ff470d39",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/938f3640be1ce0cc55b28001564a93980185e663",
+            "width": 64
+          }
+        ],
+        "name": "Paranoid (2009 Remastered Version)",
+        "release_date": "1970-09-18",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:132qAo1cDiEJdA3fv4xyNK"
+      }
+    ],
+    "limit": 5,
+    "next": "https://api.spotify.com/v1/search?query=Black&type=album&market=BR&offset=5&limit=5",
+    "offset": 0,
+    "previous": null,
+    "total": 40756
+  }
+}

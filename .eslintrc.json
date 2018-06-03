@@ -8,6 +8,7 @@
         "imports": "only-multiline",
         "exports": "only-multiline",
         "functions": "ignore"
-    }]
+      }],
+      "no-use-before-define": 0
     }
 }

@@ -7,7 +7,7 @@ module.exports = (req, res) => {
   res.redirect(
     'https://accounts.spotify.com/authorize?' +
     'response_type=code&' +
-    `client_id=${Math.random()}&` +
+    `client_id=${config.SPOTIFY_CLIENT_ID}&` +
     `scope=${scopes}&` +
     `redirect_uri=${callbackUrl}`
   );

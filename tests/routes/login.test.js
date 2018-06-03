@@ -1,14 +1,14 @@
 const qs = require('querystring');
 const url = require('url');
 const { expect } = require('chai');
-const client = require('./httpClient');
-const config = require('../src/config');
+const client = require('../httpClient');
+const config = require('../../src/config');
 
 describe('Login', () => {
   it('Redirects to Spotify with correct params', async () => {
-    const resp = await client.get('/login');
+    const resp = await client().get('/login').redirects(0);
 
-    const query = qs.parse(url.parse(resp.redirects[0]).query);
+    const query = qs.parse(url.parse(resp.headers.location).query);
 
     expect(query).to.have.property('client_id');
     expect(query).to.include({

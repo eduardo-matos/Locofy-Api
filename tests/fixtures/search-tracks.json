@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Back In Black",
+    "image": "https://i.scdn.co/image/52d83377fe9d7fc838deeb859499f3973adf903f",
+    "duration_ms": 255493,
+    "album": "Back In Black",
+    "artists": [
+      "AC/DC"
+    ]
+  },
+  {
+    "name": "Black",
+    "image": "https://i.scdn.co/image/425e1fef6d70a48a103dfd168a556b7f72f72865",
+    "duration_ms": 342653,
+    "album": "Ten",
+    "artists": [
+      "Pearl Jam"
+    ]
+  },
+  {
+    "name": "Back To Black",
+    "image": "https://i.scdn.co/image/d1b3fe2214267fb5479bd7311f610b3ad5422570",
+    "duration_ms": 240440,
+    "album": "Back To Black",
+    "artists": [
+      "Amy Winehouse"
+    ]
+  },
+  {
+    "name": "All The Stars (with SZA)",
+    "image": "https://i.scdn.co/image/dfc8859cfa4ac0a761742f6b64e45f4ea65ece50",
+    "duration_ms": 232186,
+    "album": "Black Panther The Album Music From And Inspired By",
+    "artists": [
+      "Kendrick Lamar",
+      "SZA"
+    ]
+  },
+  {
+    "name": "Black Hole Sun",
+    "image": "https://i.scdn.co/image/0171c2a21818f9c204fc4c6e42683feebcb63672",
+    "duration_ms": 318586,
+    "album": "Superunknown (20th Anniversary)",
+    "artists": [
+      "Soundgarden"
+    ]
+  }
+]

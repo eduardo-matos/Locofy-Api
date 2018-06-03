@@ -5,6 +5,8 @@ const routes = require('./routes');
 const app = express();
 
 app.get('/login', routes.login);
+app.get('/callback', routes.callback);
+app.get('/search', routes.search);
 
 app.listen(config.PORT);
 
