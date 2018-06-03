@@ -6,5 +6,8 @@
     "beforeEach": true,
     "after": true,
     "afterEach": true
+  },
+  "rules": {
+    "no-unused-expressions": 0
   }
 }
