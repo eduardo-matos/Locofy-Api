@@ -8,6 +8,7 @@ const app = express();
 app.get('/login', routes.login);
 app.get('/callback', routes.callback);
 app.get('/search', [
+  middlewares.allowAjax,
   middlewares.spotifyAuth
 ], routes.search);
 
