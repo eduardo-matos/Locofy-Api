@@ -2,7 +2,7 @@ const PORT = process.env.PORT || 5000;
 const DATABASE_URL = process.env.DATABASE_URL || 'sqlite://';
 const SECRET_KEY = process.env.SECRET_KEY || `${Math.random()}`;
 
-const LOCOFY_FRONTEND_URL = 'https://localhost:3000';
+const LOCOFY_FRONTEND_URL = process.env.LOCOFY_FRONTEND_URL || 'https://localhost:3000';
 
 const SPOTIFY_API_GENERAL_SEARCH_URL = 'https://api.spotify.com/v1/search';
 const SPOTIFY_API_SINGLE_ARTIST_URL = 'https://api.spotify.com/v1/artists/';

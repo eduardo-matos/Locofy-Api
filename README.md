@@ -19,3 +19,4 @@ API for [Locofy](https://github.com/eduardo-matos/Locofy).
 * `SPOTIFY_CALLBACK_URL` (`http://localhost:${PORT}/callback`): Callback URL which Spotify will call upon authorization success or failure.
 * `SPOTIFY_CLIENT_ID`: Application's client ID registered on Spotify.
 * `SPOTIFY_CLIENT_SECRET`: Application's client secret registered on Spotify.
+* `LOCOFY_FRONTEND_URL` (`https://localhost:3000`): URL to redirect user upon successful/failed authorization.
