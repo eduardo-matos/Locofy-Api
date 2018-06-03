@@ -4,7 +4,6 @@ const db = require('./db');
 module.exports = db.define('user', {
   email: Sequelize.STRING,
   code: Sequelize.STRING,
-  market: Sequelize.STRING,
 }, {
   freezeTableName: true,
   timestamps: false,
