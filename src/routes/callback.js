@@ -7,21 +7,18 @@ const config = require('../config');
 const ERROR_URL = `${config.LOCOFY_FRONTEND_URL}?e=1`;
 
 module.exports = async (req, res) => {
-  let access;
-  let refresh;
+  let accessToken;
   let email;
 
   try {
-    const resp = await spotify.fetchToken(req.query.code);
-    access = resp.accessToken;
-    refresh = resp.refreshToken;
+    accessToken = await spotify.fetchToken(req.query.code);
   } catch (err) {
     // Probably user didn't provide access
     return res.redirect(ERROR_URL);
   }
 
   try {
-    email = await spotify.fetchUserEmail(access);
+    email = await spotify.fetchUserEmail(accessToken);
   } catch (err) {
     return res.redirect(ERROR_URL);
   }
@@ -35,7 +32,7 @@ module.exports = async (req, res) => {
     }
   }
 
-  const data = jwt.sign({ accessToken: access, refreshToken: refresh }, config.SECRET_KEY);
+  const data = jwt.sign({ accessToken }, config.SECRET_KEY);
   return res.redirect(`${config.LOCOFY_FRONTEND_URL}?${qs.stringify({ jwt: data })}`);
 };
 

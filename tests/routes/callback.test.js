@@ -12,7 +12,6 @@ describe('Callback', () => {
   const code = 'meat';
   const email = 'foo@bar.baz';
   const accessToken = 'spam';
-  const refreshToken = 'egg';
 
   beforeEach(() => {
     request = client()
@@ -23,7 +22,7 @@ describe('Callback', () => {
     rp
       .post
       .withArgs(config.SPOTIFY_FETCH_TOKEN_URL)
-      .resolves({ access_token: accessToken, refresh_token: refreshToken });
+      .resolves({ access_token: accessToken });
 
     rp
       .get
@@ -34,7 +33,7 @@ describe('Callback', () => {
   it("Responds with Spotify's tokens", async () => {
     const resp = await request;
 
-    const signedData = jwt.sign({ accessToken, refreshToken }, config.SECRET_KEY);
+    const signedData = jwt.sign({ accessToken }, config.SECRET_KEY);
     expect(resp).to.have.header('Location', `${config.LOCOFY_FRONTEND_URL}?jwt=${signedData}`);
   });
 

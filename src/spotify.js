@@ -15,25 +15,7 @@ module.exports.fetchToken = async (code) => {
     json: true,
   });
 
-  return {
-    accessToken: resp.access_token,
-    refreshToken: resp.refresh_token,
-  };
-};
-
-module.exports.renewToken = async (refreshToken) => {
-  const resp = await rp.post(config.SPOTIFY_REFRESH_TOKEN_URL, {
-    form: {
-      grant_type: 'refresh_token',
-      refresh_token: refreshToken,
-    },
-    headers: {
-      Authorization: `Basic ${toBase64(`${config.SPOTIFY_CLIENT_ID}:${config.SPOTIFY_CLIENT_SECRET}`)}`
-    },
-    json: true,
-  });
-
-  this.accessToken = resp.access_token;
+  return resp.access_token;
 };
 
 module.exports.fetchUserEmail = async (token) => {

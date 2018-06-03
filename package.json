@@ -5,7 +5,7 @@
   "main": "src/server.js",
   "scripts": {
     "start": "node src/app.js",
-    "test": "mocha --recursive --exit --slow=200 tests",
+    "test": "nyc mocha --recursive --exit --slow=200 tests",
     "lint": "eslint src tests"
   },
   "author": "Eduardo Matos",
@@ -17,6 +17,7 @@
     "eslint-config-airbnb-base": "12.1.0",
     "eslint-plugin-import": "2.12.0",
     "mocha": "5.2.0",
+    "nyc": "12.0.1",
     "sinon": "5.0.10",
     "sqlite3": "4.0.0"
   },
