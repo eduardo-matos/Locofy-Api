@@ -28,10 +28,12 @@
     "express": "4.16.3",
     "http-codes": "1.0.0",
     "jsonwebtoken": "8.2.2",
+    "moment": "2.22.2",
     "pg": "7.4.3",
     "request": "2.87.0",
     "request-promise": "4.2.2",
-    "sequelize": "4.37.10"
+    "sequelize": "4.37.10",
+    "winston": "2.4.2"
   },
   "engines": {
     "node": ">=8 <=10.3"

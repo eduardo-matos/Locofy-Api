@@ -1,6 +1,7 @@
 const PORT = process.env.PORT || 5000;
 const DATABASE_URL = process.env.DATABASE_URL || 'sqlite://';
 const SECRET_KEY = process.env.SECRET_KEY || `${Math.random()}`;
+const { LOG_LEVEL } = process.env;
 
 const LOCOFY_FRONTEND_URL = process.env.LOCOFY_FRONTEND_URL || 'https://localhost:3000';
 
@@ -21,6 +22,7 @@ module.exports = {
   PORT,
   DATABASE_URL,
   SECRET_KEY,
+  LOG_LEVEL,
 
   LOCOFY_FRONTEND_URL,
 
