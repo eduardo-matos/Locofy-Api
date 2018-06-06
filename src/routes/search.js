@@ -20,7 +20,7 @@ module.exports = async (req, res) => {
   }
 
   try {
-    return res.json(await searchFunc(term, req.spotify.token));
+    return res.json(await searchFunc(term, req.spotify.accessToken));
   } catch (e) {
     return res.status(Http.UNAUTHORIZED).json({ msg: 'Problem accessing Spotify' });
   }
