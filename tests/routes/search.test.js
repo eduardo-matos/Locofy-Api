@@ -14,6 +14,8 @@ describe('Search', () => {
 
     expect(resp).to.have.status(200);
     expect(resp.text).to.equal('');
+    expect(resp).to.have.header('Access-Control-Allow-Origin', '*');
+    expect(resp).to.have.header('Access-Control-Allow-Headers', 'Authorization');
   });
 
   it('Allows ajax requests', async () => {
