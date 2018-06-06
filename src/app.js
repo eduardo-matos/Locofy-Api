@@ -7,9 +7,11 @@ const app = express();
 
 app.get('/login', routes.login);
 app.get('/callback', routes.callback);
+
+app.options('/search', middlewares.allowAjax, (req, res) => res.send());
 app.get('/search', [
   middlewares.allowAjax,
-  middlewares.spotifyAuth
+  middlewares.spotifyAuth,
 ], routes.search);
 
 app.listen(config.PORT);

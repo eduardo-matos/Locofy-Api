@@ -9,6 +9,13 @@ const fixtures = require('../fixtures');
 describe('Search', () => {
   const token = jwt.sign({ token: 'baz' }, config.SECRET_KEY);
 
+  it('ALlows "Options" method', async () => {
+    const resp = await client().options('/search');
+
+    expect(resp).to.have.status(200);
+    expect(resp.text).to.equal('');
+  });
+
   it('Allows ajax requests', async () => {
     rp.get.resolves(fixtures.tracks);
     const resp = await client()
@@ -17,6 +24,7 @@ describe('Search', () => {
       .set('Authorization', `Bearer ${token}`);
 
     expect(resp).to.have.header('Access-Control-Allow-Origin', '*');
+    expect(resp).to.have.header('Access-Control-Allow-Headers', 'Authorization');
   });
 
   it('Tracks', async () => {
